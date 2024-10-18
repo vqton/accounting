@@ -1,13 +1,12 @@
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+using AuthenticationService.Data;
 using AuthenticationService.Models;
+using AuthenticationService.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Microsoft.AspNetCore.Identity.UI.Services;
-using AuthenticationService.Data;
-using AuthenticationService.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 

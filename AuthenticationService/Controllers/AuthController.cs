@@ -77,7 +77,7 @@ namespace AuthenticationService.Controllers
             var result = await _authService.RegisterAsync(model);
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
-
+    
             return Ok(new { Status = "Success", Message = "User created successfully!" });
         }
         //public async Task<IActionResult> Register([FromBody] RegisterModel model)
