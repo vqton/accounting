@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mNOi8dZluMk=",
+  "dgSpecHash": "OBMsWIaKJzo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj",
+  "projectFilePath": "c:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\QuangTon\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\QuangTon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

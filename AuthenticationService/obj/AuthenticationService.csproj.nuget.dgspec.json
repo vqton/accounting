@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj": {}
+    "c:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj": {
+    "c:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj",
+        "projectUniqueName": "c:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj",
         "projectName": "AuthenticationService",
-        "projectPath": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj",
+        "projectPath": "c:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\AuthenticationService.csproj",
         "packagesPath": "C:\\Users\\QuangTon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\obj\\",
+        "outputPath": "c:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\QuangTon\\AppData\\Roaming\\NuGet\\NuGet.Config",
