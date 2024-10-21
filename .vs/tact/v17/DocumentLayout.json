@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\QuangTon\\source\\repos\\tact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|c:\\users\\quangton\\source\\repos\\tact\\authenticationservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|c:\\users\\quangton\\source\\repos\\tact\\authenticationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|c:\\users\\quangton\\source\\repos\\tact\\authenticationservice\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|c:\\users\\quangton\\source\\repos\\tact\\authenticationservice\\seeders\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\seeders\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|c:\\users\\quangton\\source\\repos\\tact\\authenticationservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|c:\\users\\quangton\\source\\repos\\tact\\authenticationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED9AE0D-E6B1-42F0-8696-1A9B7E4E193B}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthenticationService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:46:54.324Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1018410296:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
@@ -30,28 +52,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AuthenticationService\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AuthenticationService\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Seeders\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Seeders\\UserSeeder.cs",
+              "ToolTip": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Seeders\\UserSeeder.cs",
+              "RelativeToolTip": "AuthenticationService\\Seeders\\UserSeeder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:00:45.098Z",
+              "WhenOpened": "2024-10-21T08:41:21.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "AuthenticationService\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "AuthenticationService\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthenticationService\\appsettings.json",
+              "ToolTip": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\appsettings.json",
+              "RelativeToolTip": "AuthenticationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T08:39:07.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Program.cs",
+              "ToolTip": "C:\\Users\\QuangTon\\source\\repos\\tact\\AuthenticationService\\Program.cs",
+              "RelativeToolTip": "AuthenticationService\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T02:40:02.969Z",
+              "WhenOpened": "2024-10-21T08:23:07.425Z",
               "EditorCaption": ""
             }
           ]
