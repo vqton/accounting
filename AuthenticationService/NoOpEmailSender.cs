@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 namespace AuthenticationService
 
 {
-    public class NoOpEmailSender
+    public class NoOpEmailSender:IEmailSender
     {
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {

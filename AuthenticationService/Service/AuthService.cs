@@ -1,5 +1,6 @@
 ﻿using AuthenticationService.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -19,11 +20,12 @@ namespace AuthenticationService.Service
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IConfiguration _configuration;
-
-        public AuthService(UserManager<ApplicationUser> userManager, IConfiguration configuration)
+        private readonly ILogger<AuthService> _logger;
+        public AuthService(UserManager<ApplicationUser> userManager, IConfiguration configuration, ILogger<AuthService> logger)
         {
             _userManager = userManager;
             _configuration = configuration;
+            _logger = logger;
         }
 
         public async Task<AuthResult> LoginAsync(LoginModel model)
@@ -74,16 +76,30 @@ namespace AuthenticationService.Service
             return await _userManager.CreateAsync(user, model.Password);
         }
 
-         async Task<IdentityResult> IAuthService.DeleteUserAsync(string username)
+        public async Task<IdentityResult> DeleteUserAsync(string username)
         {
             var user = await _userManager.FindByNameAsync(username);
             if (user == null)
+            {
+                _logger.LogWarning("User {Username} not found.", username);
                 return IdentityResult.Failed(new IdentityError { Description = "User not found!" });
+            }
 
-            return await _userManager.DeleteAsync(user);
+            _logger.LogInformation("Attempting to delete user {Username}.", username);
+            var result = await _userManager.DeleteAsync(user);
+            if (!result.Succeeded)
+            {
+                _logger.LogError("Error deleting user {Username}: {Errors}", username, result.Errors);
+            }
+            else
+            {
+                _logger.LogInformation("User {Username} deleted successfully.", username);
+            }
+
+            return result;
         }
 
-         async Task<ApplicationUser> IAuthService.GetUserAsync(string username )
+        async Task<ApplicationUser> IAuthService.GetUserAsync(string username )
         {
             return await _userManager.FindByNameAsync(username);
         }
